@@ -30,9 +30,9 @@ on:  # yamllint disable-line rule:truthy
 
 env:
   # official release repo
-  DOCKER_ORGANIZATION: kong
-  DOCKER_REPOSITORY: kong/kong
-  PRERELEASE_DOCKER_REPOSITORY: kong/kong-dev
+  DOCKER_ORGANIZATION: akshay-anand020
+  DOCKER_REPOSITORY: akshayanand020/kong-oss
+  PRERELEASE_DOCKER_REPOSITORY: akshayanand020/kong-oss
   FULL_RELEASE: ${{ github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || github.actor == 'dependabot[bot]'}}
 
   # only for PR
